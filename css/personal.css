@@ -1,12 +1,14 @@
 html {
     font-family: sans-serif;
+    background-color: #efefef;
+    color: #404040;
 }
 
 h1 {
     text-align: center;
     font-size: 35px;
     padding: 15px 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #7d7874;
     width: 60%;
     display: block;
     margin-left: auto;
@@ -33,7 +35,7 @@ img {
 footer {
     text-align: center;
     font-size: 15px;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted #7d7874;
     padding: 5px;
     max-width: 15%;
     position: fixed;
@@ -44,12 +46,28 @@ footer {
 }
 
 li {
-    border: 1px solid black;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #404040;
+    border: 1px solid #7d7874;
     text-align: center;
     padding: 30px 10px;
     width: 20%;
     margin: 10px;
     vertical-align: text-top;
     float: left;
-    list-style: none;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: #efefef;
+    border-color: #404040;
+    background-color: #404040;
+}
+
+span {
+    color: #8c1515;
 }
